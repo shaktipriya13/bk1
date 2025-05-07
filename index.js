@@ -1,3 +1,4 @@
+// index.js is the entry point of the server
 // console.log("hey backend!");
 require('dotenv').config()
 

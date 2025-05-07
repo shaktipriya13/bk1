@@ -13,7 +13,7 @@ ORM and ODM -(Prisma , mongoose) are like framwork libraray of databases
 code hum ek jagah likhte ha par unhe multiple machines par deploy kia ja skta ha for load balancing
 
 DB humesha dusre continent me hota ha
-Backend me bas alag alag fxns hi likhte ha aap..aur kuch nhi...wo fxns DB ke sath interact krte ha.....hum jo response bhejte ha is called api
+Backend me bas alag alag fxns hi likhte ha aap..aur kuch nhi...wo fxns DB ke sath interact krte ha.....hum(server) jo response bhejte ha is called api
 mostly apis are in json format, but can also be number values, true/false ,object, arrray etc
 
 Js me 2 frameworks sikhne ha : 1. express(for routing) 2. mongoose for db
@@ -45,9 +45,11 @@ to make a node appln: write npm init -y
 
 ![1746533444293](image/text/1746533444293.png)
 
-## there are 2 types of writeing styles in js: common js and module
+## there are 2 types of writing styles in js: common js and module
 
 ![1746533707706](image/text/1746533707706.png)
+
+import wale ko ES6 kehte ha
 
 there are numerous types of responses that we can send:
 ![1746534075053](image/text/1746534075053.png)
@@ -76,3 +78,17 @@ You change a button's color in your code and hit save → the page updates **ins
 deploy backend on aws,azure, digitalOcean, railway ,seeNode, render, cyclic.sh
 
 those things that can be recreated like node modules are not pushed to github
+
+---
+
+**CI/CD** stands for **Continuous Integration** and **Continuous Deployment/Delivery** .
+
+### In simple words:
+
+👩‍💻 **CI (Continuous Integration)** :
+
+Whenever a developer writes new code and saves (commits) it, the system **automatically checks** if it works properly (like running tests, checking for errors).
+
+🚀 **CD (Continuous Delivery/Deployment)** :
+
+Once the code passes all checks, it is **automatically sent** to the website/app without doing it manually.
